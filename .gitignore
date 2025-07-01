@@ -1,0 +1,192 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+/.nyc_output
+/test-results
+/playwright-report
+/playwright/.cache
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# next.js
+**/.next/
+**/out/
+**/dist/
+
+# production
+**/build
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+*-debug.log
+
+# local env files
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+**/.env
+**/.env*.local
+
+# vercel
+.vercel
+**/vercel.json
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# turbopack
+.turbo
+
+# firebase
+firebase-debug.log
+firebase-debug.*.log
+.firebase/
+firestore-debug.log
+ui-debug.log
+database-debug.log
+pubsub-debug.log
+auth-export/
+firestore-export/
+*.cache
+.firebaserc.local
+functions/lib/
+
+# IDE / Editor
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.history/
+.project
+.classpath
+.c9/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# logs
+logs/
+*.log
+pglite-debug.log
+
+# runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# package manager lock files (choose one to track)
+# Uncomment the ones you don't want to track
+# package-lock.json
+# yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Build artifacts
+*.orig
+
+# Firebase Functions
+functions/lib/**/*.js
+functions/lib/**/*.js.map
+functions/tsconfig.tsbuildinfo
+
+# Sentry
+.sentryclirc
+
+# Private keys and certificates
+*.key
+*.crt
+*.pem
+private/
+
+# Backup files
+*.backup
+*.bak
+
+# macOS
+**/.DS_Store
+
+# Windows
+**/Thumbs.db
+**/ehthumbs.db
+
+# Linux
+**/*~
+
+# JetBrains IDEs
+**/.idea/
+
+# Visual Studio Code
+**/.vscode/
+!**/.vscode/extensions.json
+!**/.vscode/settings.json
+
+# Sublime Text
+**/*.sublime-project
+**/*.sublime-workspace
+
+# Vim
+**/*.swp
+**/*.swo
+**/*.swn
+
+# Emacs
+**/*~
+**/#*#
+**/.#*
+
+# Other editors
+**/*.orig
+**/*.rej
+
+# claude
+.claude/
