@@ -1,5 +1,7 @@
 # Stashlog
 
+[English](#) | [中文](./README_zh.md)
+
 A premium content platform built with Next.js and Firebase, designed for course creators and paid community builders to monetize their knowledge through exclusive, members-only content.
 
 ## 🎯 Perfect For
